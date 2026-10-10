@@ -1,4 +1,4 @@
-# 🤖 Automated Daily AI News Digest & Logger (n8n Workflow)
+# 🤖 Automated-AI-News-Agent
 
 [![n8n.io](https://img.shields.io/badge/n8n-workflow-EA4B71?style=flat&logo=n8n)](https://n8n.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -6,7 +6,8 @@
 [![Google Sheets](https://img.shields.io/badge/Google_Sheets-Integration-34A853?logo=googlesheets)](https://workspace.google.com/products/sheets/)
 [![Gmail](https://img.shields.io/badge/Gmail-Digest-EA4335?logo=gmail)](https://mail.google.com/)
 
-An automated **n8n** workflow that scans the web daily for the latest AI breakthroughs and research, deduplicates news against a historical Google Sheet log using an AI agent, emails a formatted digest to your inbox via Gmail, and automatically appends the day's headlines to Google Sheets for long-term tracking.
+Autonomous **n8n** pipeline that searches daily AI research breakthroughs, cross-references Google Sheets for semantic deduplication, logs new updates, and delivers curated email digests straight to your inbox.
+
 
 ---
 
