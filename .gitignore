@@ -1,0 +1,16 @@
+# Environment & secrets
+.env
+.env.*
+*.secret
+credentials.json
+
+# Backups and temporary files
+*.bak
+*.tmp
+*.log
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
