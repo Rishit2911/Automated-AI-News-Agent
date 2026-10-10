@@ -13,6 +13,8 @@ Autonomous **n8n** pipeline that searches daily AI research breakthroughs, cross
 
 ## 📌 Architecture & Workflow Flow
 
+![n8n Workflow Canvas](assets/workflow-canvas.png)
+
 ```mermaid
 flowchart LR
     A["⏱️ Schedule Trigger\n(9:00 AM Daily)"] --> B["🔎 Message a model\n(OpenAI Web Search)"]
@@ -21,6 +23,14 @@ flowchart LR
     C --> E["✉️ Send a message\n(Gmail Digest)"]
     E --> F["📝 Append row in sheet\n(Google Sheets Archive)"]
 ```
+
+---
+
+## 📬 Sample Email Digest Output
+
+Here is a real example of the automated daily digest formatted and dispatched to the user's inbox:
+
+![Sample Email Digest Output](assets/email-digest-sample.png)
 
 ---
 
